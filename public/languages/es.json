@@ -63,5 +63,15 @@
     "canuto": "<span>Tecnologias: </span> Nodejs, Javascript, Mysql, Sequelize, Express.",
     "ginger": "<span>Tecnologias: </span> Nodejs, Javascript, Mysql, Sequelize, Express , Bootstrap.",
     "tpo": "<span>Tecnologias: </span> Python, Flask, Vue, Javascript, Sqlite3, Bootstrap, Parallax."
+  },
+  "titulos": {
+    "estudios": "Estudios",
+    "proyectos": "Mis Proyectos",
+    "contacto": "Contacto"
+  },
+  "navbar": {
+    "estudios": "EStudiOs",
+    "proyectos": "Proyectos",
+    "contacto": "Contacto"
   }
 }
