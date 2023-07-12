@@ -36,23 +36,31 @@ body {
 }
 /* Home */
 .circle-container {
-    display: flex;   
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  .home-pic-info{
-    display: flex;
-    flex-direction: column;
-  }
   
-  .circle, .circle img {
+  .circle,
+  .circle img {
     width: 250px;
-    height: 250px;    
-    border-radius: 50%;    
+    height: 250px;
+    border-radius: 50%;
     display: flex;
     flex: 0 0 auto;
   }
+  
+  .circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+.home-pic-info{
+    display: flex;
+    flex-direction: column;
+}
 
 .logo {
     width: 3rem;
