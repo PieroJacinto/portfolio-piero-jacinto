@@ -535,7 +535,7 @@ body {
     gap: 1rem;
     width: min(70rem, 90%);
     margin-inline: auto;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
 }
 .lin {
     background: linear-gradient(90deg, #0ea5e9, #0e9cdf, #0d93d4, #0c8bca, #0a82c0, #087ab5, #0571ab, #0369a1);
