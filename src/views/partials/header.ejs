@@ -1,0 +1,64 @@
+<header class="header">
+    <div class="header-logo">
+      <a href="/">
+        <img src="images/p-logo.png" class="logo">
+      </a>
+    </div>
+    <div class="dropdown">
+      <a class=" menu-btn-5 dropdown-toggle" onclick="menuBtnFunction(this)" href="#" data-bs-auto-close="inside" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </a>
+    
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#contacto">Contacto</a></li>
+        <li><a class="dropdown-item" href="#estudios">Estudios</a></li>
+        <li><a class="dropdown-item" href="#proyectos">Proyectos</a></li>
+      </ul>
+    </div>
+   
+
+    <nav class="header-nav">
+        <a href="#contacto" class="active">
+            Contacto
+        </a>
+        <a href="#estudios">
+            Estudios
+        </a>
+        <a href="#proyectos">
+            Proyectos
+        </a>
+      </nav>
+    <div id="flags" class="flags">
+        <div class="flags__item" data-language="es">
+            <img src="images/es.svg" class="flags__img">
+        </div>
+        <div class="flags__item" data-language="en">
+            <img src="images/gb.svg" class="flags__img" >
+        </div>
+   </div>
+
+</header>
+<script>
+
+const navLinks = document.querySelectorAll('.header-nav a');
+
+navLinks.forEach(link => {
+  link.addEventListener('click', function() {
+    navLinks.forEach(link => link.classList.remove('active'));
+    this.classList.add('active');
+  });
+
+  link.addEventListener('mouseover', function() {
+    navLinks.forEach(link => link.classList.remove('active'));
+    this.classList.add('active');
+  });
+});
+
+</script>
+<script>
+  function menuBtnFunction(menuBtn) {
+    menuBtn.classList.toggle("active");
+}
+</script>
+

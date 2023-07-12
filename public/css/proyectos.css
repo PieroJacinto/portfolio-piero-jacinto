@@ -1,0 +1,171 @@
+.proyectos-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 2fr));
+    grid-auto-rows: max-content;
+    gap: 1rem;
+    width: min(70rem, 90%);
+    margin-inline: auto;
+    margin-bottom: 3rem;
+    
+}
+.proyectos {
+    display: flex;
+    flex-direction: column;
+    /* background: linear-gradient(90deg, #0f172a, #11192c, #131c2f, #151f31, #172134, #1a2436, #1c2639, #1e293b); */
+    padding: 1rem;
+    border-radius: .75rem;
+    color: #fff;
+    /* background: linear-gradient(90deg, #151f31, #162032, #182234, #192335, #1a2537, #1b2638, #1d283a, #1e293b);   */
+    background: linear-gradient(90deg, #11192c, #131b2e, #151d30, #162032, #182235, #1a2437, #1c2739, #1e293b);
+    padding: 1rem;
+    border-radius: .75rem;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.proyect-content {
+    flex: 1;
+  }
+.proyectos::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: .25rem;
+    background: linear-gradient(to right, #314755 0%, #01ccc2 50%, #314755 100%);
+    border-image-slice: 1;
+  }
+.proyectos .image-container {
+    text-align: center;
+}
+
+.proyectos .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: .75rem;
+    margin-bottom: 1.3rem;
+}
+.proy-titulo{
+    color: #0FF2C9;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1.3rem;
+}
+.proy-tec {
+    margin-bottom: 1.3rem;
+}
+.proy-list{
+    margin-bottom: 1.3rem;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.proy-list li {
+    margin-bottom: .5rem !important;
+}
+/* .btn-git {
+    display: flex !important;
+    flex-direction: row;  
+    justify-content: center;  
+    background-image: linear-gradient(to right, #314755 0%, #01ccc2  50%, #314755  100%);     
+    padding: 10px 15px;
+    text-align: center;    
+    background-size: 200% auto;
+    color: #FFF;         
+    border-radius: .75rem;
+    display: block;
+    border: none;
+    cursor: pointer;   
+    text-decoration: none !important;
+    margin-right: .7rem;
+    width: 100%;
+}
+.btn-git a {
+    text-decoration: none !important;
+    color: #fff;
+    font-size: 1rem;
+    margin-right: .7rem;
+}
+.btn-git div {
+    color: #fff;
+    font-size: 1rem;
+}
+.btn-deploy {
+    display: flex !important;
+    flex-direction: row;  
+    justify-content: center; 
+    width: 100%;
+    background-color: rgb(17 17 34 / 1); 
+    padding: 10px 15px;
+    text-align: center;    
+    background-size: 200% auto;
+    color: #FFF;         
+    border-radius: .75rem;
+    display: block;    
+    cursor: pointer;   
+    text-decoration: none !important;
+    border: solid 2px #01ccc2;    
+}
+.proyect-buttons{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+} */
+.proyect-buttons {
+    display: flex;
+    justify-content: center;
+}
+.proyect-buttons span {
+    font-size: 1rem !important;
+}
+  
+.btn-git,
+.btn-deploy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    text-align: center;
+    background-size: 200% auto;
+    color: #FFF;
+    border-radius: .75rem;
+    cursor: pointer;
+    text-decoration: none !important;
+    margin-right: .7rem;
+    width: 100%;
+}
+
+.btn-git {
+    background-image: linear-gradient(to right, #314755 0%, #01ccc2 50%, #314755 100%);
+}
+
+.btn-git a,
+.btn-deploy a {
+    text-decoration: none !important;
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.btn-git i,
+.btn-git span,
+.btn-deploy i,
+.btn-deploy span {
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.btn-git span,
+.btn-deploy span {
+    margin-left: 0.5rem;
+}
+
+.btn-deploy {
+    background-color: rgb(17 17 34 / 1);
+    border: solid 2px #01ccc2;
+}

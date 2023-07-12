@@ -1,0 +1,65 @@
+{
+  "hero": {
+    "title": "Hello👋! I am <span>Piero Jacinto</span> ",
+    "rol": "Full-Stack Web Developer",
+    "hire": "Hire Me ❤",
+    "description": "I love contributing to exciting and challenging projects. I enjoy working in a team and collaborating with my peers to achieve common goals. I'm always looking for new challenges and learning opportunities.",
+    "contact": "Get in touch!"    
+  },    
+  "contact": {
+      "title": "Get in touch"
+    },
+  "projects": {
+      "vinoDeCanuto": "e-commerce"
+  },
+  "console": {
+    "bienvenida": "welcome",
+    "sobreMi": "about",
+    "nombre": "firstname",
+    "apellido": "lastname",
+    "imagen": "image",
+    "edad": "age",
+    "pais": "country",
+    "espaniol": "spanish",
+    "nativo": "Native",
+    "ingles": "english",
+    "avanzado": "Avanced (C1)" 
+  },
+  "estudios":{
+    "uba": "Computer engineering career",
+    "digital": "Full-Stack Web Programming Course",
+    "udemy": "Udemy React Course",
+    "codo": "Python Full-Stack Web Programming Course"     
+  },
+  "estudios-cont":{
+    "uba": "Ongoing",
+    "digital":"<span> Contents:</span> Javascript, HTML, CSS, Bootstrap, Sequelize, MVC, CRUD, Postman, Express, Nodejs, Api Rest",
+    "udemy": "<span> Contents:</span> React, Jest, MongoDb, Firestore, JWT, Testing, Autenticaciones, CRUD, Logs, MUI, Multiple Routers",
+    "codo":"<span> Contents:</span> Python, Javascript, HTML, CSS, CRUD, MVC, Bootstrap, VUE, Flask, Django"
+  },
+  "estudios-titulo":{
+    "uba": "Computer engineering",
+    "digital": "Full Stack Web Development",
+    "udemy": "React from zero to expert <br> (Mern and HOOKS)",
+    "codo": "Full-Stack Python Web Development"
+  },
+  "estudios-time": {
+    "uba": "2023-present",
+    "digital": "March 2022- September 2022",    
+    "codo": "March 2023- July 2023"
+  },
+  "botones": {
+    "cv": "View CV &nbsp <i class='fa-regular fa-eye'></i>",
+    "contacto": "Get in touch! &nbsp <i class='fa-solid fa-angles-down'></i>"
+  },
+  "proyectos-list": {
+    "canuto": "<li>Authentication and management of user sessions.</li><li>Analysis, design and implementation of a database system using Sequelize (ORM).</li><li>Integration with other platforms through apis ( Instagram Api).</li><li>Use of Session and Cookies for information storage.</li><li>Implementation of search systems, filtering and saving of products</li>",
+    "ginger": "<li>Authentication and management of user sessions.</li><li>Analysis, design and implementation of a database system using Sequelize (ORM).</li><li>Integration with other platforms through apis ( Instagram Api).</li><li>Use of Session and Cookies for information storage.</li><li>Implementation of search systems, filtering and saving of products</li>",
+    "tpo": "<li>Api creation using Python, Flask and decorators</li><li>Database creation using Sqlite3</li><li>CRUD(create, read, update and delete) implemented using vue and Javascript in the front calling the endpoints of the created api</li><li>Using Parallax for the background</li>"
+  },
+  "proyectos-tec": {
+    "canuto": "<span>Technologies: </span> Nodejs, Javascript, Mysql, Sequelize, Express.",
+    "ginger": "<span>Technologies: </span> Nodejs, Javascript, Mysql, Sequelize, Express , Bootstrap.",
+    "tpo": "<span>Technologies: </span> Python, Flask, Vue, Javascript, Sqlite3, Bootstrap, Parallax."
+  }
+}

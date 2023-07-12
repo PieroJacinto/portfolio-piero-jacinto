@@ -1,0 +1,67 @@
+{
+  "hero": {
+    "title": "Hola👋! Soy <span>Piero Jacinto </span> ",
+    "rol": " Desarrollador Web Full-Stack",
+    "hire": "Contrátame ❤",
+    "description": "Me encanta contribuir a proyectos emocionantes y desafiantes. Disfruto trabajar en equipo y colaborar con mis compañeros para alcanzar metas comunes. Siempre estoy en busca de nuevos desafíos y oportunidades de aprendizaje.",
+    "contact": "Contacto!",
+    "cv": "Ver CV"
+  },    
+  "contact": {
+    "title": "Contacto"
+  },
+  "projects": {
+    "vinoDeCanuto": "e-commerce"
+},
+  "console": {
+    "bienvenida": "bienvenida",
+    "sobreMi": "sobreMi",
+    "nombre": "nombre",
+    "apellido": "apellido",
+    "imagen": "imagen",
+    "edad": "edad",
+    "pais": "pais",
+    "espaniol": "español",
+    "nativo": "Nativo",
+    "ingles": "ingles",
+    "avanzado": "Avanzado (C1)" 
+  },
+  "estudios":{
+    "uba": "Carrera de ingenieria Informatica ",
+    "digital": "Curso de Programación web Full-Stack",
+    "udemy": "Curso de React de Udemy",
+    "codo": "Curso de Programación web Python Full-Stack"    
+  },
+  "estudios-cont":{
+    "uba": "En Curso",
+    "digital":"<span> Contenidos:</span> Javascript, HTML, CSS, Bootstrap, Sequelize, MVC, CRUD, Postman, Express, Nodejs, Api Rest",
+    "udemy": "<span> Contenidos:</span> React, Jest, MongoDb, Firestore, JWT, Testing, Autenticaciones, CRUD, Logs, MUI, Multiple Routers",
+    "codo":"<span> Contenidos:</span> Python, Javascript, HTML, CSS, CRUD, MVC, Bootstrap, VUE, Flask, Django"
+  },
+  "estudios-titulo":{
+    "uba": "Ingenieria en informatica",
+    "digital": "Desarrollo Web Full-Stack",
+    "udemy": "React de cero a experto <br> (Mern y HOOKS)",
+    "codo": "Desarrollo Web Python Full-Stack"
+  },
+  "estudios-time": {
+    "uba": "2023-Actualidad",
+    "digital": "Marzo 2022- Septiembre 2022",   
+    "codo": "Marzo 2023- Julio 2023"
+  },
+  "botones": {
+    "cv": "Ver CV &nbsp <i class='fa-regular fa-eye'></i>",
+    "contacto": "Contacto! &nbsp <i class='fa-solid fa-angles-down'></i>"
+  },
+  "proyectos-list": {
+    "canuto": "<li>Autenticación y manejo de sesiones de usuarios.</li><li>Análisis, diseño e implementación de un sistema de base de datos utilizando Sequelize (ORM).</li><li>Integración con otras plataformas mediante apis (Instagram Api).</li><li>Uso de Session y Cookies para almacenado de información.</li><li>Implementación de sistemas de búsqueda, filtrado y guardado de productos</li>",
+    "ginger": "<li>Autenticación y manejo de sesiones de usuarios.</li><li>Análisis, diseño e implementación de un sistema de base de datos utilizando Sequelize (ORM).</li><li>Integración con otras plataformas mediante apis (Instagram Api).</li><li>Uso de Session y Cookies para almacenado de información.</li><li>Implementación de sistemas de búsqueda, filtrado y guardado de productos</li>",
+    "tpo": "<li>Creacion de Api utilizando Python, Flask y decoradores</li><li>Creacion de base de datos utilizando Sqlite3</li><li>CRUD(create, read, update and delete) implementado utilizando vue y Javascript en el front llamando a los endpoints de la api creada</li><li>Utilizacion de Parallax para el fondo</li>"
+   
+  },
+  "proyectos-tec": {
+    "canuto": "<span>Tecnologias: </span> Nodejs, Javascript, Mysql, Sequelize, Express.",
+    "ginger": "<span>Tecnologias: </span> Nodejs, Javascript, Mysql, Sequelize, Express , Bootstrap.",
+    "tpo": "<span>Tecnologias: </span> Python, Flask, Vue, Javascript, Sqlite3, Bootstrap, Parallax."
+  }
+}

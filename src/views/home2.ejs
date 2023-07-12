@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta 
+        name="description"
+        content="Hola👋! Soy Piero Jacinto. Soy un desarrollador Full Stack de Argentina, con sólidos conocimientos en: Javascript, Reac, Python, Node, Express, Sql, Sequilize, jest,." />>
+    <title>Document</title>
+
+    <!-- Font -->
+    <link href="https://fonts.cdnfonts.com/css/avenir" rel="stylesheet"> 
+
+    <!-- Fonts Awesome -->
+    <script src="https://kit.fontawesome.com/2cffc479ad.js" crossorigin="anonymous"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/colors.css">
+    <link rel="stylesheet" href="/css/s-media.css">
+    <link rel="stylesheet" href="/css/m-media.css">
+    <link rel="stylesheet" href="/css/xl-media.css">
+    <link rel="stylesheet" href="/css/timeline.css">
+    <link rel="stylesheet" href="/css/proyectos.css">
+
+    <!-- Fonts Awesome -->
+    <script src="https://kit.fontawesome.com/2cffc479ad.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body >
+    <main id="root"> 
+        <!-- EFECTO ESTRELLAS FONDO PARALLAX -->
+        <section class="wrapper">
+            <div id="stars1"></div>
+            <div id="stars2"></div>
+            <div id="stars3"></div>
+        </section>
+       
+        <%- include('./partials/cursor') %> 
+        <div class="content">
+
+            <%- include('./partials/header') %> 
+    
+            <section class="container-fluid mrg-t-2">
+                <div class="home-pic-info">
+                    <!-- Imagen de Perfil y modal  -->
+                    <div class="circle-container">    
+                        <a id="profilePicture" class="circle" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <img src="https://avatars0.githubusercontent.com/u/43749971" alt="Profile Picture"/>
+                        </a>
+                          
+                        <!-- Button trigger modal -->  
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">     
+                                    <a class="popup-close"  data-bs-dismiss="modal" aria-label="Close">&times;</a>
+                                    <img src="https://avatars0.githubusercontent.com/u/43749971" alt="Profile Picture"/>                    
+                                </div>    
+                            </div>
+                        </div>
+                        <div id="hashtag" data-section="hero" data-value="hire">
+                            Contrátame ❤
+                        </div>                     
+                    </div>
+                    <div class="info-container">
+                        <!-- Bienvenida -->
+                        <article class="hero-section">
+                            <div data-section="hero" data-value="title">
+                                Hola👋! Soy <span>Piero Jacinto</span> 
+                            </div>
+                            <div data-section="hero" data-value="rol">
+                                Desarrollador Web Full-Stack
+                            </div>
+                        </article>    
+                        <!-- LOGOS  -->
+                        <%- include('./partials/logos') %> 
+    
+                        <!-- description and buttons -->
+                        <%- include('./partials/description') %> 
+                        
+                    </div>
+                </div>
+            </section>
+    
+            <!-- console -->            
+            <%- include('./partials/console') %> 
+            
+            <!-- Timeline -->
+            <%- include('./partials/timeline') %>   
+
+            <!-- Proyectos -->
+            <%- include('./partials/proyectos') %>
+
+            <!-- contacto -->
+            <%- include('./partials/contacto') %>
+            
+          
+            <!-- <div class="signature">
+                Realizado por Piero Jacinto
+            </div> -->
+                     
+        </div>
+        
+    </main>
+    <!-- cursor script -->
+    <script src="js/cursors.js"></script>
+    <!-- languages js -->
+    <script src="js/languages.js"></script>
+    <!-- Bootstrap 5.3 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

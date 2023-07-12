@@ -1,0 +1,64 @@
+@media (min-width: 1200px) {
+  /* header */
+  .header {
+    justify-content: space-between;
+     margin-left: 5%;
+     margin-right: 5%;  
+ }
+}
+@media (min-width: 1400px) {
+    .home-pic-info{
+        display: flex;
+        flex-direction: row;
+    }
+    .circle {
+        margin-left: 12rem;
+    }
+    #hashtag {
+        margin-left: 23rem;
+        margin-top: 11rem;
+    }
+    .circle img {
+        width: 400px;
+        height: 400px;  
+       
+    }
+      /* tec logos section */
+    .tec-logos-container{
+        margin-top: 1rem;
+        max-width: 55%;        
+    }
+    .tec-logos-container i {
+        font-size: 1.5rem;
+        color: #b1b1b1;
+        margin-right: 8px;
+    }
+
+    .tec-logos-container h4 {
+        color: #b1b1b1;
+        font-size: 1rem;
+        
+    }
+
+    /* description */
+
+    .description-container{
+        margin-top: 2rem;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description{     
+            
+        font-size: 1.5rem;
+        color: #FFF;
+        max-width: 70%;
+    }
+     /* Console */
+     /* .console{          
+        margin-left: 30%;
+        margin-right: 30%;           
+    } */
+  }
